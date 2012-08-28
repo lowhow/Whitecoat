@@ -2,6 +2,7 @@
 /** 囧
  * Wordpress function files in PiggyBack.
  *
+ * @author HOW
  * @package PiggyBack
  * @since version 0.1
  * @version 1
