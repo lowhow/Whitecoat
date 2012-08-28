@@ -1,5 +1,13 @@
 <?php
 /** 囧
+ * Wordpress function files in PiggyBack.
+ *
+ * @package PiggyBack
+ * @since version 0.1
+ * @version 1
+ */
+
+/** 
  * Add Favicon Link
  * 
  * @package PiggyBack
