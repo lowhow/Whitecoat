@@ -46,12 +46,7 @@ $args['dev_mode'] = FALSE;
 //Choose to disable the import/export feature
 $args['show_import_export'] = false;
 
-//Choose a custom option name for your theme options, the default is the theme name in lowercase with spaces replaced by underscores
-$old_pattern = array("/[^a-zA-Z0-9]/", "/_+/", "/_$/");
-$new_pattern = array("_", "_", "");
-$childtheme_name = strtolower(preg_replace($old_pattern, $new_pattern , wp_get_theme()));
-
-$args['opt_name'] = $childtheme_name;
+$args['opt_name'] = 'whitecoat';
 
 //Custom menu icon
 //$args['menu_icon'] = '';
