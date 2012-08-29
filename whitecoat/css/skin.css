@@ -1,0 +1,27 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+.alignleft{display:inline;float:left;margin-right:1.625em;}
+.alignright{display:inline;float:right;margin-left:1.625em;}
+.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto;}
+.entry-content img,.comment-content img,.widget img{max-width:97.5%;height:auto;}
+img[class*="align"],img[class*="wp-image-"]{height:auto;}
+img.size-full{max-width:97.5%;width:auto;}
+.entry-content img.wp-smiley{border:none;margin-bottom:0;margin-top:0;padding:0;}
+img.alignleft,img.alignright,img.aligncenter{margin-bottom:1.625em;}
+p img,.wp-caption{margin-top:0.4em;}
+.wp-caption{background:#eee;margin-bottom:1.625em;max-width:96%;padding:9px;}
+.wp-caption img{display:block;margin:0 auto;max-width:98%;}
+.wp-caption .wp-caption-text,.gallery-caption{color:#666;font-family:Georgia, serif;font-size:12px;}
+.wp-caption .wp-caption-text{margin-bottom:0.6em;padding:10px 0 5px 40px;position:relative;}
+.wp-caption .wp-caption-text:before{color:#666;content:'\2014';font-size:14px;font-style:normal;font-weight:bold;margin-right:5px;position:absolute;left:10px;top:7px;}
+.clear-background{filter:"progid:DXImageTransform.Microsoft.gradient(enabled = false)";background-image:none;background:transparent;}
+.clear-box-shadow{box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;}
+#top .containerwrap,#branding .containerwrap,#access .containerwrap,#showcase .containerwrap,#main .containerwrap,#bottom .containerwrap,#colophon .containerwrap{width:940px;margin:auto;}
+.mod{margin:0 0 20px;padding:20px;position:relative;}.mod .mod-header .mod-title{margin:0 0 20px;}
+.mod-style-line{margin:0 0 20px;padding:0;}.mod-style-line .mod-header{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAACCAYAAAAaRY8cAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8yMS8xMRTK2QYAAAAaSURBVBiVY2RgYJBnGAaA5f///7kD7QhqAADdJAOPGLtZzAAAAABJRU5ErkJggg==") bottom repeat-x;}.mod-style-line .mod-header .mod-title{padding:0 0 20px;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.hidden{display:none;}
+.too-thin{width:1px;}
+.too-short{height:1px;}
+.nopad{padding:0!important;}
+.nobullet{list-style:none;padding:0px;margin:0;}
+.pad{padding:20px;}

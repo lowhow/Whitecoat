@@ -1,0 +1,36 @@
+/**
+ * Background
+ */
+.clear-background { filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)"; background-image:none; background:transparent; }
+
+/**
+ * Border Radius 
+ */
+.rounded(@br:3px, @bl:3px, @tr:3px, @tl:3px) {
+    -webkit-border-bottom-right-radius: @br; -webkit-border-bottom-left-radius: @bl; -webkit-border-top-right-radius: @tr; -webkit-border-top-left-radius: @tl;
+    -khtml-border-radius-bottomright: @br; -khtml-border-radius-bottomleft: @bl; -khtml-border-radius-topright: @tr; -khtml-border-radius-topleft: @tl;
+    -moz-border-radius-bottomright: @br; -moz-border-radius-bottomleft: @bl; -moz-border-radius-topright: @tr; -moz-border-radius-topleft: @tl;
+    border-bottom-right-radius: @br; border-bottom-left-radius: @bl; border-top-right-radius: @tr; border-top-left-radius: @tl;
+}
+
+/**
+ * Box Shadows 
+ */
+.box-shadow(@hl:0, @vl:0, @blur:3px, @r:0, @g:0, @b:0, @a:0.15){ box-shadow: @hl @vl @blur rgba(@r, @g, @b, @a); -moz-box-shadow: @hl @vl @blur rgba(@r, @g, @b, @a); -webkit-box-shadow: @hl @vl @blur rgba(@r, @g, @b, @a); }
+.box-shadow-inset(@hl:0, @vl:-2px, @blur:3px, @r:0, @g:0, @b:0, @a:1) { box-shadow: @hl @vl @blur rgba(@r, @g, @b, @a) inset; -moz-box-shadow: @hl @vl @blur rgba(@r, @g, @b, @a) inset; -webkit-box-shadow: @hl @vl @blur rgba(@r, @g, @b, @a) inset }
+.clear-box-shadow { box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+
+
+/**
+ * CSS3 Animations
+ */
+.anim-all(@duration:1s) { -webkit-transition:all @duration; -moz-transition:all @duration; -o-transition:all @duration; transition:all @duration; }
+
+/** Opacity **/
+.opacity(@level:50) {
+    ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@level)"; /* internet explorer 8 */
+    filter: alpha(opacity=@level); /* internet explorer 5~7 */
+    -khtml-opacity: @level / 100;      /* khtml, old safari */
+    -moz-opacity: @level / 100;       /* mozilla, netscape */
+    opacity: @level / 100;           /* fx, safari, opera */
+}
