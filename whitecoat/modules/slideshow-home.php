@@ -3,11 +3,11 @@
  * The Module for Slideshow in Home page.
  *
  * @package PIGGYBACK
- * @subpackage Whitecoat_Colombo
+ * @subpackage Whitecoat
  */
 ?>
 <?php
-global $piggyback_flexslider;
+global $piggyback;
 global $post;
 
 /**
